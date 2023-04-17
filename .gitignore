@@ -1,0 +1,19 @@
+# Ignore compiled Python files
+*.pyc
+*.pyo
+test/__pycache__/
+.idea/
+
+# Ignore virtual environment files
+venv/
+.env/
+
+
+# Ignore build directories and artifacts
+weather_app.egg-info/
+build/
+dist/
+
+#Ignore database file
+*.db
+*.DS_Store
